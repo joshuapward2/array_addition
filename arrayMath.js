@@ -2,7 +2,7 @@ var maximumWealth = function(accounts) {
     let maxWealthSoFar = 0; 
 
     for(let customer of accounts) {
-        currentCustomerWealth = 0;
+        let currentCustomerWealth = 0;
 
         for(let bank of customer) {
          currentCustomerWealth += bank;
